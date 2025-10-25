@@ -1,0 +1,1281 @@
+[
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8570833333333333,
+        "std_accuracy": 0.01847483273116279
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8683333333333332,
+        "std_accuracy": 0.01594260539142415
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8454166666666666,
+        "std_accuracy": 0.019338002309787165
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.8033333333333333,
+        "std_accuracy": 0.008994597143717883
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "tree_method": "gpu_hist",
+            "predictor": "gpu_predictor",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.865,
+        "std_accuracy": 0.022722663674059975
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8583333333333334,
+        "std_accuracy": 0.01508080089237821
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "6",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0",
+            "device": "gpu"
+        },
+        "mean_accuracy": 0.8733333333333333,
+        "std_accuracy": 0.01991300524224754
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.9305208333333332,
+        "std_accuracy": 0.02659707716815682
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.9352361111111112,
+        "std_accuracy": 0.019500494612277316
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.9146319444444446,
+        "std_accuracy": 0.024580229716201493
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.8661666666666668,
+        "std_accuracy": 0.02313967252241148
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "tree_method": "gpu_hist",
+            "predictor": "gpu_predictor",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.934375,
+        "std_accuracy": 0.019426678391668863
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.9374722222222222,
+        "std_accuracy": 0.02018097135764957
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "6",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0",
+            "device": "gpu"
+        },
+        "mean_accuracy": 0.9352152777777778,
+        "std_accuracy": 0.018776221376984516
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8681944444444444,
+        "std_accuracy": 0.01196501781171129
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8697222222222223,
+        "std_accuracy": 0.012983325607376557
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8504861111111112,
+        "std_accuracy": 0.011702161613127432
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.8270138888888889,
+        "std_accuracy": 0.01382520120184893
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "tree_method": "gpu_hist",
+            "predictor": "gpu_predictor",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8597916666666666,
+        "std_accuracy": 0.025766041389567153
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8802777777777777,
+        "std_accuracy": 0.012718764692714525
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "6",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0",
+            "device": "gpu"
+        },
+        "mean_accuracy": 0.8664583333333333,
+        "std_accuracy": 0.021764602377867287
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8511805555555554,
+        "std_accuracy": 0.02905866246401462
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8586805555555557,
+        "std_accuracy": 0.017033010796395423
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8446527777777778,
+        "std_accuracy": 0.01052398421830634
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.8005555555555557,
+        "std_accuracy": 0.01853086972368132
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "tree_method": "gpu_hist",
+            "predictor": "gpu_predictor",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8532638888888888,
+        "std_accuracy": 0.02105621517583026
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8788888888888888,
+        "std_accuracy": 0.014999678494496895
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "6",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0",
+            "device": "gpu"
+        },
+        "mean_accuracy": 0.8625694444444445,
+        "std_accuracy": 0.017534412813551784
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.5811111111111111,
+        "std_accuracy": 0.04325034342973619
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.6133333333333333,
+        "std_accuracy": 0.02055438247403431
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.6247916666666666,
+        "std_accuracy": 0.021473497877875218
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.5946527777777778,
+        "std_accuracy": 0.01791155181081766
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "tree_method": "gpu_hist",
+            "predictor": "gpu_predictor",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.576875,
+        "std_accuracy": 0.02887803615591305
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.6176388888888888,
+        "std_accuracy": 0.022133503457623726
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "6",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0",
+            "device": "gpu"
+        },
+        "mean_accuracy": 0.590625,
+        "std_accuracy": 0.03380525312564436
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7191964285714286,
+        "std_accuracy": 0.02813399467316951
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7339006696428572,
+        "std_accuracy": 0.01666640716143104
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7364676339285714,
+        "std_accuracy": 0.006840206848287543
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.712109375,
+        "std_accuracy": 0.025172390473841965
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7193359375,
+        "std_accuracy": 0.01811090274146074
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7363281250000001,
+        "std_accuracy": 0.016215475107193414
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.7282366071428572,
+        "std_accuracy": 0.023622120436147823
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8010602678571429,
+        "std_accuracy": 0.033081682545262274
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8173549107142856,
+        "std_accuracy": 0.015928572054172006
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7909040178571429,
+        "std_accuracy": 0.028575760649188094
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.7943638392857142,
+        "std_accuracy": 0.02348511717948521
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8191127232142857,
+        "std_accuracy": 0.022393090880280745
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8224888392857143,
+        "std_accuracy": 0.015632123296557294
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.8234933035714287,
+        "std_accuracy": 0.01747137547981637
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7922230113636364,
+        "std_accuracy": 0.02162534167521364
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8004498106060606,
+        "std_accuracy": 0.01982969016762918
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7528645833333333,
+        "std_accuracy": 0.020312224074554536
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.7465553977272728,
+        "std_accuracy": 0.02153160309597843
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7997514204545454,
+        "std_accuracy": 0.016421615689128335
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8027817234848484,
+        "std_accuracy": 0.015518118285695784
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.8008167613636366,
+        "std_accuracy": 0.019138088305932784
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7901751893939395,
+        "std_accuracy": 0.01983833711866595
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8003196022727274,
+        "std_accuracy": 0.019863394811759416
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7532788825757576,
+        "std_accuracy": 0.020392566976023745
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.7310132575757576,
+        "std_accuracy": 0.016909044875779083
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7997514204545454,
+        "std_accuracy": 0.016421615689128335
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8043442234848485,
+        "std_accuracy": 0.016241824397376734
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.8008167613636366,
+        "std_accuracy": 0.019138088305932784
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7922230113636364,
+        "std_accuracy": 0.02162534167521364
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8004498106060606,
+        "std_accuracy": 0.01982969016762918
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7528645833333333,
+        "std_accuracy": 0.020312224074554536
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.7465553977272728,
+        "std_accuracy": 0.02153160309597843
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7997514204545454,
+        "std_accuracy": 0.016421615689128335
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8027817234848484,
+        "std_accuracy": 0.015518118285695784
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.8008167613636366,
+        "std_accuracy": 0.019138088305932784
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7976648351648352,
+        "std_accuracy": 0.010272127302650896
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7892256181318681,
+        "std_accuracy": 0.003361220862792782
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7503434065934067,
+        "std_accuracy": 0.009365742004771898
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.748119848901099,
+        "std_accuracy": 0.006802593380944236
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7920329670329671,
+        "std_accuracy": 0.009122657718626232
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8000429258241759,
+        "std_accuracy": 0.003706007935088329
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.799476304945055,
+        "std_accuracy": 0.011880379281680585
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.6989526098901098,
+        "std_accuracy": 0.02236394078786928
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7140367445054945,
+        "std_accuracy": 0.012010961637399316
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.670681662087912,
+        "std_accuracy": 0.016201514011764343
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.6734460851648352,
+        "std_accuracy": 0.01591559897868406
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7107486263736263,
+        "std_accuracy": 0.02221029763960595
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7166981456043955,
+        "std_accuracy": 0.021444040467143755
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.7104052197802198,
+        "std_accuracy": 0.014261961511124233
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7976648351648352,
+        "std_accuracy": 0.010272127302650896
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7892256181318681,
+        "std_accuracy": 0.003361220862792782
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7503434065934067,
+        "std_accuracy": 0.009365742004771898
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.748119848901099,
+        "std_accuracy": 0.006802593380944236
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7920329670329671,
+        "std_accuracy": 0.009122657718626232
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8000429258241759,
+        "std_accuracy": 0.003706007935088329
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.799476304945055,
+        "std_accuracy": 0.011880379281680585
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7976648351648352,
+        "std_accuracy": 0.010272127302650896
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7892256181318681,
+        "std_accuracy": 0.003361220862792782
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7503434065934067,
+        "std_accuracy": 0.009365742004771898
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.748119848901099,
+        "std_accuracy": 0.006802593380944236
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7920329670329671,
+        "std_accuracy": 0.009122657718626232
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.8000429258241759,
+        "std_accuracy": 0.003706007935088329
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.799476304945055,
+        "std_accuracy": 0.011880379281680585
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "500",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7881919642857144,
+        "std_accuracy": 0.00741556842839531
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "50",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7914508928571429,
+        "std_accuracy": 0.004298019907765812
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7494791666666666,
+        "std_accuracy": 0.008508242271078534
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.7439880952380953,
+        "std_accuracy": 0.0128479940167756
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7922991071428571,
+        "std_accuracy": 0.006461315692787273
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7956696428571428,
+        "std_accuracy": 0.004355164379719369
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.01",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.7983407738095238,
+        "std_accuracy": 0.00903047012007511
+    },
+    {
+        "model": "RandomForest",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "20",
+            "n_jobs": "-1",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7827083333333333,
+        "std_accuracy": 0.009151676828620552
+    },
+    {
+        "model": "GradientBoosting",
+        "params": {
+            "n_estimators": "1000",
+            "learning_rate": "0.1",
+            "max_depth": "3",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7657068452380952,
+        "std_accuracy": 0.02224073210920452
+    },
+    {
+        "model": "LogisticRegression",
+        "params": {
+            "max_iter": "1000",
+            "solver": "lbfgs",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7506473214285714,
+        "std_accuracy": 0.009257387731304644
+    },
+    {
+        "model": "KNN",
+        "params": {
+            "n_neighbors": "50",
+            "n_jobs": "-1",
+            "leaf_size": "100"
+        },
+        "mean_accuracy": 0.7412648809523809,
+        "std_accuracy": 0.01403790129347474
+    },
+    {
+        "model": "XGBoost",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.005",
+            "eval_metric": "mlogloss",
+            "verbosity": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7955133928571428,
+        "std_accuracy": 0.0023405708786494654
+    },
+    {
+        "model": "CatBoost",
+        "params": {
+            "iterations": "1000",
+            "depth": "8",
+            "learning_rate": "0.005",
+            "verbose": "0",
+            "random_state": "42"
+        },
+        "mean_accuracy": 0.7948809523809524,
+        "std_accuracy": 0.004630379964469757
+    },
+    {
+        "model": "LightGBM",
+        "params": {
+            "n_estimators": "1000",
+            "max_depth": "8",
+            "learning_rate": "0.005",
+            "random_state": "42",
+            "verbosity": "0"
+        },
+        "mean_accuracy": 0.7984226190476191,
+        "std_accuracy": 0.0041208820620919455
+    }
+]
